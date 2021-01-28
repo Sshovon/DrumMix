@@ -96,3 +96,15 @@ select{
     font-size: 1rem;
     
 }
+
+.mute.active{
+    background: #d41b1b;
+}
+@keyframes playTrack{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
